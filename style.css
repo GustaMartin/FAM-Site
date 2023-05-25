@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+	background-image: url('background.png');
+      background-attachment: fixed;
+}
+
+nav{
+	color: black;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 40px;
+
+}
+
+header.mapa {
+			
+             padding: 10px;
+			 text-align: left;
+    font-size: 30px;
+    font-family: fantasy;
+    text-align: center;
+	position: center;
+    margin-left: 0px;
+    margin-top: 30px;
+
+}
+
+header.textomapa {
+			
+             padding: 10px;
+			 text-align: left;
+    font-size: 30px;
+    font-family: fantasy;
+    text-align: center;
+	position: center;
+    margin-left: 0px;
+    margin-top: 30px;
+
+}
+
+
+h2 {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides {
+    width: 400%;
+    height: 20px;
+    display: flex;
+}
+
+.slides input { 
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+}
+
+.slide img {
+    width: 800px;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: 420px;
+    display: flex;
+    justify-content: center;
+}
+
+div.button {
+    text-align: center;
+}
+
+div.texto {
+    overflow: hidden; 
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 20px; 
+    float: left; 
+    border-radius: 6px; 
+    transition-duration: 800ms;
+}
+
+div.texto:hover {
+    transform: scale(1.05); 
+}
+
+.manual-btn {
+    border: 2px solid #FFF;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+    top: -40px;
+    margin: 20px;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 20px;
+}
+
+.manual-btn:hover {
+    background-color: white;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -75%;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 420px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div {
+    /*radio azul*/
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: #FFF;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: #FFF;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #FFF;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background-color: #FFF;
+}
+
+section {
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.336);
+}
+
+.button {
+    align-items: center;
+}
+
+header.menu {
+    
+    padding: 20px;
+    position: absolute;
+    top: 50px;
+  left:520px; 
+  margin-left: 0px;
+	
+}
+
+header.men {
+			
+             padding: 10px;
+			 text-align: left;
+			 
+			 }
+
+/*Menu Superior*/
+			 
+ul {
+	
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+	  display: flex; /* Adiciona um display flex para centralizar os itens */
+      justify-content: center; /* Centraliza horizontalmente os itens */
+    }
+
+    li {
+		
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+/*Menu Superior*/
+
+
+
+
+
+.my-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ccc;
+  padding: 50px;
+  border-radius: 15%;
+}
+
+.my-form label, .my-form input, .my-form textarea {
+  width: 300px;
+}
+
+.my-form input[type="submit"] {
+  width: auto;
+}
+
+h1 img {
+	left: 250px;
+  margin-right: 10px;
+}
